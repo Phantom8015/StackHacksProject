@@ -1,0 +1,17 @@
+{
+  "name": "carbon-calculator-copy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2"
+  },
+  "description": ""
+}
