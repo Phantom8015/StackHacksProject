@@ -57,8 +57,8 @@ module.exports = {
                         { name: 'Country', value: data[2], inline: true }, // Country field
                         { name: 'CO2 Emissions in metric tons', value: data[3], inline: true }, // CO2 emissions field
                         { name: 'How many people can that can be killed by that amount of CO2', value: data[4], inline: true }, // Kill rate field
+                        { name: "Try the website", value: "https://citycarbon.tech"}
                     )
-                    .setFooter("Like this bot? Try our website, https://citycarbon.tech! The website has been updated to our latest and greatest algorithm that you see here!")
 
                 // Reply with the embed
                 interaction.reply({ embeds: [embed] });
